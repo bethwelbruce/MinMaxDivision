@@ -6,7 +6,7 @@ public class MinMaxDivision {
 		int max=0;
 		for(int a:A){
 			max +=a;
-			min=Math.max(min,max);
+			min=Math.max(a,min);
 			
 		}
 		
